@@ -16,7 +16,7 @@ for (i=0;i<16;i++){
     if (temp_sum == A[i])
         temp_left = i;
     printf("t:%d s:%d\n",temp_sum,sum);
-    for(j=left;j<=right;j++)printf("%d ",A[j]);
+    for(j=temp_left;j<=right;j++)printf("%d ",A[j]);
     printf("\n");
     printf("left = %d,right = %d,temp_left = %d\n",left ,right,temp_left);
 }
